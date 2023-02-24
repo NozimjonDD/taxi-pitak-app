@@ -76,7 +76,7 @@ class _LoginScreenState extends State<LoginScreen>
                     primary: AppColors.mainTextColor
                 ),
                 child: const Text(
-                  "Krish",
+                  "Kirish",
                   style: TextStyle(color: Color(0xFF455A64), fontSize: 18),
                 ),
               ),
