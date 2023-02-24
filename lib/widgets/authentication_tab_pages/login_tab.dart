@@ -38,7 +38,7 @@ class _LoginScreenState extends State<LoginScreen>
               ),
 
               Text(
-                "Profilga krish",
+                "Profilga kirish",
                 style: TextStyle(
                     fontSize: 25,
                     color: AppColors.textColor,

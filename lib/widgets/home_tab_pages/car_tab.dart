@@ -82,7 +82,7 @@ class _CarTabPageState extends State<CarTabPage> {
                     primary: AppColors.mainTextColor
                 ),
                 child: const Text(
-                  "Avtomobil ma'lumotlarni kritish",
+                  "Avtomobil ma'lumotlarni kiritish",
                   style: TextStyle(color: Color(0xFF455A64), fontSize: 18),
                 ),
               ),
