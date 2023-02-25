@@ -31,7 +31,8 @@ class PaymentHistoryBar extends StatelessWidget {
                     return HistoryDetailPage(user: user);
                   }));
                 },
-                leading: FlutterLogo(),
+                // leading: FlutterLogo(),
+                leading: Icon(Icons.payment, size: 30),
                 trailing: Text(user.id??'id'),
                 title: Text(user.title??'user'),
                 subtitle: Text('${user.time??DateTime.now()}'),
@@ -63,6 +64,9 @@ class HistoryDetailPage extends StatelessWidget {
             onChanged: (newValue){
               debugPrint(newValue);
             },
+          ),
+          Container(
+            child: Text("dada"),
           ),
         ],
       ),
