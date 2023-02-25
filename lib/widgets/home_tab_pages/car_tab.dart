@@ -18,6 +18,13 @@ class _CarTabPageState extends State<CarTabPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
+      appBar: AppBar(
+        backgroundColor: Colors.black,
+        title: const Text("Ma'limot kiritish",
+            style: TextStyle(
+              color: Colors.white,
+            )),
+      ),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
@@ -29,9 +36,7 @@ class _CarTabPageState extends State<CarTabPage> {
                 padding: const EdgeInsets.all(20.0),
                 // child: Image.asset("images/logo_taxi.png"),
               ),
-
               const SizedBox(height: 10),
-
               Text(
                 "Avtomobil ma'lumotlarni kiritish",
                 style: TextStyle(
@@ -40,7 +45,6 @@ class _CarTabPageState extends State<CarTabPage> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-
               SizedBox(height: 30),
               Container(
                 child: TextFormField(
@@ -91,7 +95,7 @@ class _CarTabPageState extends State<CarTabPage> {
 
               TextButton(
                   child: const Text(
-                    "Rrish",
+                    "Kirish",
                     style: TextStyle(color: Color(0xFF455A64)),
                   ),
                   onPressed: ()
